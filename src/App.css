@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*NOF*/
+
+.generalTxt{
+  font-family: monospace;
+  font-size: large;
+  align-items: center;
+  padding: 5px;
+}
+
+
+#highText{
+  background-color:  rgba(155, 151, 151, 0.623);
+}
+
+#initquest{
+  padding-left: 35%;
+}
+
+.column {
+  float: left;
+  width:45%;
+  padding: 20px;
+}
+
+.row{
+  padding-left: 45px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+
+
