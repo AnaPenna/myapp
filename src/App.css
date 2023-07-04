@@ -1,10 +1,13 @@
 *{
   margin: 0;
   padding: 0;
+  background-color: EEE2DE; /*/cor fundo*/
 }
-
-
-/*NOF*/
+/*HEADER*/
+.logo{
+  padding: 0.25em 1.2em 0em;
+  width: 8em;
+}
 
 .generalTxt{
   font-family: monospace;
@@ -13,23 +16,10 @@
   padding: 5px;
 }
 
-
-#highText{
-  background-color:  rgba(155, 151, 151, 0.623);
-}
-
-#initquest{
-  padding-left: 35%;
-}
-
 .column {
   float: left;
   width:45%;
   padding: 20px;
-}
-
-.row{
-  padding-left: 45px;
 }
 
 .row:after {
@@ -39,4 +29,99 @@
 }
 
 
+/*NOF CRIAR ROW DA NOF*/
+#highText{
+  background-color:  rgba(155, 151, 151, 0.623);
+}
 
+#initquest{
+  padding-left: 35%;
+}
+
+#rowNOF{
+  padding-left: 30px;
+}
+
+
+/*OFE*/
+
+#rowOFE{
+  width: 49%;
+  font-size: large;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  height: 90px;
+  width: 47%;
+  margin: 5px 1% 5px 1%;
+  float: left;
+  position: relative;
+  transition: height 0.5s;
+  -webkit-transition: height s;
+  text-align: center;
+  overflow: hidden;
+}
+
+#inside{
+  text-align: left;
+  padding: 5px;
+}
+
+
+/*REP*/
+
+#rowREP{
+  margin: 5px;
+  width: 99%;
+  border: 0.5px solid black;
+}
+
+.columntxt {
+  float: left;
+  width: 70%;
+  font-family: monospace;
+  font-size: large;
+  margin: 5px;
+}
+.columnimg {
+  float: left;
+  width: 25%;
+  font-family: monospace;
+  font-size: large;
+  margin: 5px;
+}
+
+/* PA */
+#columnHOME{
+  float: left;
+  width: 49%;
+  padding: 5px;
+  text-align: justify;
+  text-justify: inter-word;
+  align-items: center;
+}
+#imgHOME{
+  width: 100%;
+}
+
+
+/* SIGN UP*/
+.popup{
+  height: 300px;
+  width: 50%;
+  margin-left:300px;
+}
+.btn {
+  background-color: transparent; /* Blue background */
+  border: none; /* Remove borders */
+  color: #eee2de; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 30px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  color: #EA906C;
+}

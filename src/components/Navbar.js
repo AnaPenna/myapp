@@ -3,30 +3,37 @@ import {Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink,} from './NavbarElements
 
 const Navbar = () => {
   return (
+    
     <>
       <Nav>
         <Bars />
-  
+        
         <NavMenu>
+         
           <NavLink to='/PA' activeStyle>
-            PA
+            HOME
           </NavLink>
           <NavLink to='/NOF' activeStyle>
-            NOF
+            CRIAR OFERTA
           </NavLink>
           <NavLink to='/OFE' activeStyle>
-            OFE
+            OFERTAS EXISTENTES
           </NavLink>
           <NavLink to='/REP' activeStyle>
-            REP
-          </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Sign Up
+            REPÚBLICAS
           </NavLink>
         </NavMenu>
+
+        <NavMenu>
         <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+          <NavBtnLink to='/Signup'>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+              <button type='button' class="btn"><i class="fa fa-user"></i></button>
+          </NavBtnLink>
         </NavBtn>
+
+        </NavMenu>
+
       </Nav>
     </>
   );
